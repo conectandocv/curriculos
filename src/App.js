@@ -46,7 +46,7 @@ class App extends Component {
           <Route exact path="/" render={props => (
             <AllTemplates history={props.history} />
           )} />
-          <Route exact path="/conectando" render={props => (
+          <Route exact path="/curriculos" render={props => (
             <AllTemplates history={props.history} />
           )} />
           
